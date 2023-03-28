@@ -1,0 +1,23 @@
+// @media screen and (min-width: 768px)
+.image {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.container {
+	background: linear-gradient(0deg, #111827 0%, #192130 100%);
+	padding: 1rem;
+}
+.list {
+	margin-bottom: 60px;
+	position: relative;
+}
+.list::after {
+	content: '';
+	position: absolute;
+	width: 95%;
+	height: 0.5px;
+	background-color: gray;
+	right: 10px;
+	bottom: -35px;
+}
